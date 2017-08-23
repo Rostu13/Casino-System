@@ -14,7 +14,7 @@
 #define Version "2.2 DEBUG"
 #define DEBUG
 
-#define g_iRoundOff 15
+int g_iRoundOff 15;
 public Plugin myinfo =
 {
 	name = 			"[Shop] Roulette",
@@ -90,7 +90,7 @@ ConVar	sm_roulette_tag,
 	    sm_roulette_mode_value,
 	    sm_roulette_off,
 	    sm_roulette_auto_start;
-	   
+	
 		
 #include "Roulette/db.sp"
 #include "Roulette/menu.sp"
